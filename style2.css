@@ -1,0 +1,199 @@
+body {
+  background-image: url('back3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+.main-header {
+    display: flex;
+    width: 100%;
+    background-color: #cfe7f2; 
+    opacity: 0.5;
+    border-radius: 10px;
+    top: 5px;
+}
+.main-header .links{
+  padding-right: 15px;
+  position: relative;
+  left: 90%;
+ 
+}
+
+.links i{
+  font-size: 50px;
+  color: #333;
+}
+.links a{
+  text-decoration: none;
+}
+.top li {
+  position: relative;
+  left: 450px;
+  display: inline;
+  float: none;
+  transition: .3s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: #333;
+  font-weight: 500;
+  gap: 30px;
+  margin-right: 10px;
+}
+
+.top li:hover {
+  background-color: #63ffc6;
+  padding: 10px 12px;
+  border-radius: 50px;
+
+}
+
+.top a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.home-link {
+  color: #0000FF;
+  border-radius: 100px;
+  font-weight: bold;
+
+}
+#about{
+  position: relative;
+  font-size: 30px;
+  top: 50px;
+  color: #eee8e8;
+  text-decoration: underline;
+}
+
+#Skills{
+  color: #e4e2e2;
+  font-size: 30px;
+  margin-top: 330px;
+  text-decoration: underline;
+}
+#weather{
+  color: #e6dede;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-left: 100px;
+  text-align: left;
+  text-decoration: underline;
+}
+#education{
+  color: #d6c5c5;
+  font-size: 25px;
+  margin-top: 30px;
+  text-decoration: underline;
+  text-align: left;
+  margin-left: 200px;
+}
+#weatherab{
+  font-size: medium;
+  font-style: italic;
+  line-height: normal;
+  text-align: left;
+  margin-left: 100px;
+}
+.image1 li{
+  display: inline;
+  
+}
+
+img{
+  position: relative;
+    right:400px;
+    top: 50px;
+ }
+
+ .right {
+  margin-left: 650px;
+  margin-top: -350px;
+  line-height: 2.5em;
+  color: #f8f0f0;
+  text-align: left;
+  font-size: larger;
+ }
+
+ .left {
+  margin-left: 1100px;
+  margin-top: -220px;
+  line-height: 2.5em;
+  color: #f4eaea;
+  text-align: left;
+  font-size: larger;
+ }
+p{
+  font-size: larger;
+  color: #d3c9c9;
+}
+.skillsname li{
+color: #e8dbdb;
+display: inline;
+font-size: 25px;
+text-decoration: underline;
+}
+.skillsname {
+  display: flex;
+  justify-content: space-between; /* or space-evenly */
+  list-style: none; /* optional: removes bullet points */
+  padding: 200px;
+  margin-top: -100px;
+}
+.technical {
+  line-height: 2em;
+  margin-left: 100px;
+  margin-top: -200px;
+  color: #dbd1d1;
+  text-align: left;
+  font-size: larger;
+ }
+ .technical p{
+  font-size: medium;
+  font-style: italic;
+  line-height: normal;
+}
+ .non_technical {
+  margin-left: 1000px;
+  margin-top: -210px;
+  line-height: 2em;
+  color: #f5e4e4;
+  text-align: left;
+  font-size: larger;
+ }
+ .Professional{
+  margin-left: 900px;
+  margin-top: -180px;
+  line-height: 2em;
+  color: #e2dede;
+  text-align: left;
+  font-size: larger;
+ }
+ #interest{
+  color: #e9e2e2;
+  font-size: 30px;
+  margin-top: 150px;
+  text-decoration: underline;
+}
+.nameinter{
+  margin-left: 100px;
+  line-height: 2em;
+  color: #ede1e1;
+  text-align: left;
+  font-size: larger;
+  
+}
+.edu{
+  line-height: 2em;
+  margin-left: 100px;
+  color: #ffebeb;
+  text-align: left;
+  font-size: larger;
+}
+#para{
+  font-size: medium;
+  font-style: italic;
+  line-height: normal;
+}
